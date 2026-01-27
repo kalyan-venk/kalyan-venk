@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  MS in Computer Science @ DePaul University (AI/ML & Systems Specialization) | 3+ years in Backend & Data Science | Building production-grade MLOps/LLMOps pipelines | AWS Certified | Seeking CPT opportunities in AI/ML & SDE roles in Chicago/US
+  Computer Science graduate student @DePaul University | Systems & Software Development and AI/ML | Building production-grade MLOps/LLMOps pipelines | AWS Certified | Formerly 2+ years in Backend Development & Data Science @sensen.ai | NIT Nagpur Alumnus | Java | Python | Seeking CPT opportunities in AI/ML & SDE roles in US
 </p>
 
 ### 🔭 Currently Working On
