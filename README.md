@@ -42,6 +42,19 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=kalyan-venk&theme=radical&hide_border=true" alt="Streak Stats"/>
 </p>
 
+### 📜 Certifications
+<p align="center">
+  <a href="https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url">
+    <img src="https://img.shields.io/badge/AWS%20Certified-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=232F3E" alt="AWS Certified Cloud Practitioner"/>
+  </a>
+</p>
+
+<!-- Optional: Add verification text for extra transparency -->
+<p align="center">
+  Issued: Dec 13, 2025 | Expires: Dec 13, 2028<br>
+  Validation: <a href="https://aws.amazon.com/verification">5b831f032f5b4e88a0fc66759a1d9dde</a> via Credly
+</p>
+
 ### 🔝 Pinned Projects (coming soon – updating weekly!)
 <!-- Once you have solid repos, GitHub auto-pins or you can pin manually from your profile -->
 
