@@ -1,120 +1,119 @@
-<h1 align="center">Hi 👋, I'm Kalyan Venkatesh</h1>
+<div align="center">
+  <h1>👋 Hi, I'm Kalyan Venkatesh</h1>
+  
+  <p>
+    <strong>Computer Science MS student @ DePaul University</strong> • AI/ML & MLOps Enthusiast • Building production-grade LLM pipelines • AWS Certified • Seeking CPT opportunities in AI/ML & SDE roles
+  </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/kalyan-venk/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:adavivenkatesh@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/kalyan-venk">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=kalyan-venk&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
-</p>
+  <p>
+    <a href="https://www.linkedin.com/in/kalyan-venk/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:adavivenkatesh@gmail.com">
+      <img src="https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <img src="https://komarev.com/ghpvc/?username=kalyan-venk&color=blue&label=Profile+Views" alt="Profile Views" />
+  </p>
 
-<p align="center">
-  Computer Science graduate student @DePaul University | Systems & Software Development and AI/ML | Building production-grade MLOps/LLMOps pipelines | AWS Certified | Formerly 2+ years in Backend Development & Data Science @sensen.ai | NIT Nagpur Alumnus | Java | Python | Seeking CPT opportunities in AI/ML & SDE roles in US
-</p>
+  <img src="https://github.com/kalyan-venk/kalyan-venk/blob/main/assets/header.png" alt="Header" width="800"/> <!-- Optional: add your own banner image later -->
+</div>
 
-### 🔭 Currently Working On
-- Production-grade MLOps/LLMOps framework for LLM-based code refactoring (with GNNs, robustness distillation, RAG, MLflow monitoring) — research with Prof. Vahid Alizadeh @ DePaul
-- Hybrid Prophet + LSTM energy consumption forecasting with real-time weather API & NLP features
+## 🛠️ Tech Stack
 
-### 🌱 Currently Learning / Exploring
-- Advanced LLMOps, Graph Neural Networks for code understanding, efficient distillation techniques
-- Kubernetes for scalable ML deployments, more AWS services (Solutions Architect in progress)
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-Expert-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-Advanced-007396?style=flat-square&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-Expert-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-Certified-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-Kubernetes-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</div>
 
-### 🛠 Tech Stack
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
-  <!-- Add more: HuggingFace, NetworkX, Streamlit, Java, SQL, etc. -->
-</p>
+**Languages**  
+Python • Java (DS & Algorithms) • C • JavaScript
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kalyan-venk&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kalyan-venk&theme=radical&hide_border=true" alt="Streak Stats"/>
-</p>
+**AI/ML**  
+TensorFlow • PyTorch • Scikit-learn • Prophet • LSTM • Hugging Face • NLP • MLOps/LLMOps
 
-### 📜 Certifications
-<p align="center">
-  <a href="https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url">
-    <img src="https://img.shields.io/badge/AWS%20Certified-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white&labelColor=232F3E" alt="AWS Certified Cloud Practitioner"/>
-  </a>
-</p>
+**Tools & Infra**  
+Streamlit • MLflow • NetworkX • GridSearchCV • OpenWeather API • Docker • Kubernetes • AWS
 
-<!-- Optional: Add verification text for extra transparency -->
-<p align="center">
-  Issued: Dec 13, 2025 | Expires: Dec 13, 2028<br>
-  Validation: <a href="https://aws.amazon.com/verification">5b831f032f5b4e88a0fc66759a1d9dde</a> via Credly
-</p>
+**Databases**  
+PostgreSQL • Oracle SQL • MySQL
 
-### 🔝 Pinned Projects (coming soon – updating weekly!)
-<!-- Once you have solid repos, GitHub auto-pins or you can pin manually from your profile -->
+## 🎓 Education
 
-Feel free to explore my repos below or reach out on LinkedIn! 🚀
+- **M.S. Computer Science**  
+  DePaul University, Chicago  
+  Sep 2024 – Jun 2026  
+  Specialization: AI/ML and Systems & Software Development  
+  Relevant Coursework: Artificial Intelligence, Machine Learning, MLOps/LLMOps, Applied Algorithms, Distributed Systems
 
-Testing new
-<h1 align="center">Kalyan Venkatesh</h1>
+- **B.Tech**  
+  National Institute of Technology, Nagpur, India  
+  Jul 2017 – May 2021
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/[your-linkedin-username-here]">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:adavivenkatesh@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/kalyan-venk">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=kalyan-venk&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
-</p>
+## 🚀 Featured Projects
 
-<p align="center">
-  MS Computer Science @ DePaul University (AI/ML & Systems) • Chicago, IL<br>
-  3+ years Backend & Data Science • AWS Certified • Seeking CPT in AI/ML & SDE
-</p>
+### Production-Grade MLOps Framework for LLM-based Code Refactoring  
+*Jan 2026 – Jun 2026* • Research under Prof. Vahid Alizadeh, DePaul University  
 
-## 🧑‍💻 About Me
+- Unified MLOps/LLMOps pipeline for robust, context-aware LLM agents in automated code refactoring  
+- Robustness-aware distillation + Graph Neural Networks (GNNs) → lightweight models (~7B params)  
+- MLflow tracking, Prometheus metrics (eff@k, latency/energy via LLMCBench), RAG for repo context  
+- Targeting 20-30% gains in compilation success & test pass rates  
+- Expected deliverables: open-source prototype + potential ICML/KDD 2026 submission  
 
-```python
-class Kalyan:
-    def __init__(self):
-        self.name = "Kalyan Venkatesh"
-        self.role = "AI/ML Graduate Student & Software Engineer"
-        self.location = "Chicago, Illinois, USA"
-        self.education = "MS Computer Science @ DePaul University (Sep 2024 – Jun 2026) | BTech @ NIT Nagpur (2017–2021)"
-        self.gpa = "3.80/4.0"
-        self.experience = "3+ years (Backend Developer & Data Scientist @ sensen.ai | Engineer @ AECOM/Siri)"
-        self.passions = [
-            "Production-grade MLOps / LLMOps pipelines",
-            "Robust LLM agents for code refactoring (GNNs, distillation, RAG)",
-            "Time-series forecasting with real-world deployment & impact",
-            "Scalable cloud-integrated ML systems (AWS, Docker, Kubernetes)"
-        ]
-        self.personality = "Driven • Curious • Results-oriented • Team player"
+**Status**: Early development phase  
+[Repository → LLMOps-CodeRefactoring](https://github.com/kalyan-venk/LLMOps-CodeRefactoring)
 
-    def get_expertise(self):
-        return {
-            "languages": ["Python", "Java (with Data Structures & Algorithms)", "C", "JavaScript", "SQL"],
-            "ai_ml": ["PyTorch", "TensorFlow", "Scikit-learn", "Prophet", "LSTM", "Hugging Face", "NetworkX", "GNNs", "RAG", "MLflow", "SHAP"],
-            "tools": ["Streamlit", "GridSearchCV", "OpenWeather API"],
-            "cloud_devops": ["AWS (Cloud Practitioner certified, Solutions Architect in progress)", "Docker", "Kubernetes", "MLOps/LLMOps", "ETL pipelines"],
-            "databases": ["PostgreSQL", "Oracle SQL", "MySQL"]
-        }
+### Energy Consumption Predictor  
+*In Progress*
 
-    def career_highlights(self):
-        return [
-            "🔬 Research: Production-grade LLMOps for code refactoring — robustness distillation + GNNs + MLflow monitoring (targeting ICML/KDD 2026)",
-            "⚡ Energy Predictor: Hybrid Prophet + LSTM (6% MAPE, +12% precision via NLP/weather, 15% projected CO₂ savings)",
-            "🏭 sensen.ai: 40% latency reduction, 20% downtime cut, 2× ETL efficiency; led drone pollution detection R&D (30–35% impact potential)",
-            "🎓 AWS Certified Cloud Practitioner | Mentored interns | Owned analytics pipelines"
-        ]
+- Hybrid Prophet + LSTM model for 24-hour household electricity forecasting (6% MAPE on 50k+ hourly dataset)  
+- Real-time OpenWeather API + BERT-based NLP sentiment from weather data → 12% precision boost  
+- Streamlit dashboard with Docker, MLflow, SHAP explanations → projected 15% annual CO₂ savings  
 
-me = Kalyan()
+**Status**: Early development phase  
+[Repository → energy-consumption-predictor](https://github.com/kalyan-venk/energy-consumption-predictor)
+
+More projects & experiments coming soon — pinned section updating weekly!
+
+## 💼 Professional Experience
+
+**Software Engineer – Backend & Data Science**  
+sensen.ai  
+Aug 2022 – Aug 2024  
+
+- Built Parking Availability dashboards, Ticket APIs & image compression scripts → 20% downtime reduction  
+- End-to-end ETL pipelines for invoice/billing analytics → ~2× processing efficiency  
+- PL/SQL optimizations & async image systems → 40% latency drop  
+- ANPR accuracy analytics pipeline across 26 projects → granular drift & KPI insights  
+- Led R&D: drone + sensor telemetry pipeline for industrial pollution violation detection (projected 30-35% contamination reduction)
+
+**Engineer 1 – Data Analysis & Reporting**  
+AECOM & Siri  
+May 2021 – Jul 2022  
+
+- Integrated infrastructure data for 25+ projects → improved analysis & documentation across 100+ locations
+
+## 📜 Certifications
+
+- AWS Certified Cloud Practitioner (Dec 2025 – Dec 2028)  
+- AWS Certified Solutions Architect (In Progress)  
+- Docker & Kubernetes  
+- Java 17 Masterclass  
+- Data Structures & Algorithms  
+- Python Bible  
+- Advanced C  
+- Web Development  
+- The SQL Bootcamp  
+
+## 📫 Let's Connect
+
+- **Email**: adavivenkatesh@gmail.com  
+- **LinkedIn**: [linkedin.com/in/kalyan-venk](https://www.linkedin.com/in/kalyan-venk/)  
+- **GitHub**: You're here! 👆
+
+Open to collaborations on MLOps, LLMs, time-series forecasting, or cloud-native ML projects. Feel free to reach out!
+
+⭐ Star a repo if you find something interesting — thanks for stopping by!
