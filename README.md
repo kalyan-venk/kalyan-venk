@@ -86,22 +86,22 @@ class Kalyan:
 me = Kalyan()
 ```
 
-🎯 My Journey
+### 🎯 My Journey
 
-🔭 Currently Working On: MLOps/LLMOps pipeline for LLM-based code refactoring (robustness distillation + GNNs + RAG + monitoring) with Prof. Vahid Alizadeh @ DePaul
-🎓 Education: MS CS @ DePaul (AI/ML & Systems specialization, expected Jun 2026) | BTech @ NIT Nagpur
-💼 Experience: Software Engineer (Backend & Data Science) @ sensen.ai (2022–2024) – APIs, ETL, analytics, ANPR pipelines | Engineer @ AECOM/Siri (2021–2022) – infrastructure data integration
-🤖 Focus: End-to-end ML deployment, scalable systems, production AI reliability
-☁️ Also Skilled In: Cloud-native ML (AWS/Docker/K8s), time-series + NLP integration, DSA in Java/Python
-📫 Reach Me: adavivenkatesh@gmail.com | LinkedIn
-⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by strong coffee and late-night debugging sessions!
+- 🔭 Currently Working On: MLOps/LLMOps pipeline for LLM-based code refactoring (robustness distillation + GNNs + RAG + monitoring) with Prof. Vahid Alizadeh @ DePaul
+- 🎓 Education: MS CS @ DePaul (AI/ML & Systems specialization, expected Jun 2026) | BTech @ NIT Nagpur
+- 💼 Experience: Software Engineer (Backend & Data Science) @ sensen.ai (2022–2024) – APIs, ETL, analytics, ANPR pipelines | Engineer @ AECOM/Siri (2021–2022) – infrastructure data integration
+- 🤖 Focus: End-to-end ML deployment, scalable systems, production AI reliability
+- ☁️ Also Skilled In: Cloud-native ML (AWS/Docker/K8s), time-series + NLP integration, DSA in Java/Python
+- 📫 Reach Me: adavivenkatesh@gmail.com | LinkedIn
+- ⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by strong coffee and late-night debugging sessions!
 
-🛠️ Technologies & Expertise
-💻 Languages & DSA
-Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
-🤖 AI/ML & Frameworks
-PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
-☁️ Cloud, DevOps & Tools
-AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
-🗄️ Databases
-PostgreSQL • Oracle SQL • MySQL
+### 🛠️ Technologies & Expertise
+### 💻 Languages & DSA
+- Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
+### 🤖 AI/ML & Frameworks
+- PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
+### ☁️ Cloud, DevOps & Tools
+- AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
+### 🗄️ Databases
+- PostgreSQL • Oracle SQL • MySQL
