@@ -99,13 +99,13 @@ me = Kalyan()
 ### 🛠️ Technologies & Expertise
 
 ### 💻 Languages & DSA
-- Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
+Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
 
 ### 🤖 AI/ML & Frameworks
-- PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
+PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
 
 ### ☁️ Cloud, DevOps & Tools
-- AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
+AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
 
 ### 🗄️ Databases
-- PostgreSQL • Oracle SQL • MySQL
+PostgreSQL • Oracle SQL • MySQL
