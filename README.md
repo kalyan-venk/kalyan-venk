@@ -83,7 +83,7 @@ class Kalyan:
             "🎓 AWS Certified Cloud Practitioner | Mentored interns | Owned analytics pipelines"
         ]
 
-me = Kalyan()
+me = Kalyan()```
 
 🎯 My Journey
 
