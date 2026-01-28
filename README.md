@@ -94,7 +94,7 @@ me = Kalyan()
 - 🤖 Focus: End-to-end ML deployment, scalable systems, production AI reliability
 - ☁️ Also Skilled In: Cloud-native ML (AWS/Docker/K8s), time-series + NLP integration, DSA in Java/Python
 - 📫 Reach Me: adavivenkatesh@gmail.com | LinkedIn
-- ⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by strong coffee and late-night debugging sessions!
+- ⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by green tea and early morning sessions!
 
 ### 🛠️ Technologies & Expertise
 
