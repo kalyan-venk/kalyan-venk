@@ -1,7 +1,7 @@
-<h1 align="center">Kalyan Venkatesh</h1>
+<h1 align="center">Hi 👋, I'm Kalyan Venkatesh</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/[your-linkedin-username-here]">
+  <a href="https://www.linkedin.com/in/[your-linkedin-username]">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:adavivenkatesh@gmail.com">
@@ -14,9 +14,38 @@
 </p>
 
 <p align="center">
-  MS Computer Science @ DePaul University (AI/ML & Systems) • Chicago, IL<br>
-  3+ years Backend & Data Science • AWS Certified • Seeking CPT in AI/ML & SDE
+  MS in Computer Science @ DePaul University (AI/ML & Systems Specialization) | 3+ years in Backend & Data Science | Building production-grade MLOps/LLMOps pipelines | AWS Certified | Seeking CPT opportunities in AI/ML & SDE roles in the US
 </p>
+
+### 🔭 Currently Working On
+- Production-grade MLOps/LLMOps framework for LLM-based code refactoring (with GNNs, robustness distillation, RAG, MLflow monitoring) — research with Prof. Vahid Alizadeh @ DePaul
+- Hybrid Prophet + LSTM energy consumption forecasting with real-time weather API & NLP features
+
+### 🌱 Currently Learning / Exploring
+- Advanced LLMOps, Graph Neural Networks for code understanding, efficient distillation techniques
+- Kubernetes for scalable ML deployments, more AWS services (Solutions Architect in progress)
+
+### 🛠 Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
+  <!-- Add more: HuggingFace, NetworkX, Streamlit, Java, SQL, etc. -->
+</p>
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=kalyan-venk&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kalyan-venk&theme=radical&hide_border=true" alt="Streak Stats"/>
+</p>
+
+### 🔝 Pinned Projects (coming soon – updating weekly!)
+<!-- Once you have solid repos, GitHub auto-pins or you can pin manually from your profile -->
+
+Feel free to explore my repos below or reach out on LinkedIn! 🚀
 
 ## 🧑‍💻 About Me
 
@@ -55,3 +84,23 @@ class Kalyan:
         ]
 
 me = Kalyan()
+
+🎯 My Journey
+
+🔭 Currently Working On: MLOps/LLMOps pipeline for LLM-based code refactoring (robustness distillation + GNNs + RAG + monitoring) with Prof. Vahid Alizadeh @ DePaul
+🎓 Education: MS CS @ DePaul (AI/ML & Systems specialization, expected Jun 2026) | BTech @ NIT Nagpur
+💼 Experience: Software Engineer (Backend & Data Science) @ sensen.ai (2022–2024) – APIs, ETL, analytics, ANPR pipelines | Engineer @ AECOM/Siri (2021–2022) – infrastructure data integration
+🤖 Focus: End-to-end ML deployment, scalable systems, production AI reliability
+☁️ Also Skilled In: Cloud-native ML (AWS/Docker/K8s), time-series + NLP integration, DSA in Java/Python
+📫 Reach Me: adavivenkatesh@gmail.com | LinkedIn
+⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by strong coffee and late-night debugging sessions!
+
+🛠️ Technologies & Expertise
+💻 Languages & DSA
+Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
+🤖 AI/ML & Frameworks
+PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
+☁️ Cloud, DevOps & Tools
+AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
+🗄️ Databases
+PostgreSQL • Oracle SQL • MySQL
