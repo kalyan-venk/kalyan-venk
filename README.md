@@ -18,7 +18,7 @@
 </p>
 
 ### 🔭 Currently Working On
-- Production-grade MLOps/LLMOps framework for LLM-based code refactoring (with GNNs, robustness distillation, RAG, MLflow monitoring) — research with Prof. Vahid Alizadeh @ DePaul
+- Production-grade MLOps/LLMOps framework for LLM-based code refactoring (with GNNs, robustness distillation, RAG, MLflow monitoring) - research with Prof. Vahid Alizadeh @ DePaul University
 - Hybrid Prophet + LSTM energy consumption forecasting with real-time weather API & NLP features
 
 ### 🌱 Currently Learning / Exploring
@@ -97,11 +97,15 @@ me = Kalyan()
 - ⚡ Fun Fact: I turn complex data problems into clean, deployable solutions—usually fueled by strong coffee and late-night debugging sessions!
 
 ### 🛠️ Technologies & Expertise
+
 ### 💻 Languages & DSA
 - Python • Java (with Data Structures & Algorithms) • SQL • C • JavaScript
+
 ### 🤖 AI/ML & Frameworks
 - PyTorch • TensorFlow • Scikit-learn • Hugging Face • Prophet • LSTM • NetworkX (GNNs) • RAG • MLflow • SHAP
+
 ### ☁️ Cloud, DevOps & Tools
 - AWS • Docker • Kubernetes • MLOps/LLMOps • Streamlit • GridSearchCV • OpenWeather API
+
 ### 🗄️ Databases
 - PostgreSQL • Oracle SQL • MySQL
