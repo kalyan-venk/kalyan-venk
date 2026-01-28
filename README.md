@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  MS in Computer Science @ DePaul University (AI/ML & Systems Specialization) | 3+ years in Backend & Data Science | Building production-grade MLOps/LLMOps pipelines | AWS Certified | Seeking CPT opportunities in AI/ML & SDE roles in the US
+  I'm a Computer Science graduate student @DePaul University, specializing in AI/ML and Systems & Software Development | 2+ years in Backend & Data Science | Involved heavily in my Professional Research on LLMOps & Code Refactoring currently | AWS Certified Cloud Practitioner | Seeking CPT opportunities in AI/ML & SDE roles in the US
 </p>
 
 ### 🔭 Currently Working On
