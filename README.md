@@ -4,7 +4,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/kalyan-venk)
 [![Email](https://img.shields.io/badge/Email-adavivenkatesh%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:adavivenkatesh@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Website-Visit-black?logo=github)](https://kalyan-venk.github.io)
 
 ---
 
