@@ -40,7 +40,6 @@ My current Master's research at DePaul University investigates **hallucination d
 | Project | What it is | Stack |
 |---|---|---|
 | [**agentic-llmops**](https://github.com/kalyan-venk/agentic-llmops) | Master's research: runtime hallucination monitoring in multi-agent LLM pipelines. Full ablation study, 8 conditions, 50 HumanEval problems. | LangGraph · Ollama · MLflow · Python |
-| [**energy-consumption-predictor**](https://github.com/kalyan-venk/energy-consumption-predictor) | Hybrid Prophet + LSTM model predicting next-day household energy consumption with live weather API integration and Streamlit dashboard | Prophet · LSTM · Streamlit · AWS |
 
 ---
 
