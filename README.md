@@ -19,8 +19,8 @@ My current Master's research at DePaul University investigates **hallucination d
 
 ## Background
 
-- 🎓 MS Computer Science @ DePaul University, Chicago — graduating June 2026 (GPA: 3.80)
-- 💼 3+ years as Software Engineer & Data Scientist @ **sensen.ai** (Hyderabad) and Engineer @ **AECOM / Apple Siri**
+- 🎓 MS Computer Science @ DePaul University, Chicago — graduating June 2026 (GPA: 3.84)
+- 💼 3+ years as Software Engineer & Data Scientist @ **sensen.ai** (Hyderabad) and Engineer @ **AECOM / Siri**
 - ☁️ AWS Certified Cloud Practitioner
 - 🔬 Research supervised by Prof. Vahid Alizadeh · targeting paper submission June 2026
 
