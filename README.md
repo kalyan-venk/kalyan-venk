@@ -1,88 +1,101 @@
+<div align="center">
+
+```
+ML Engineer  ·  LLM Evaluation  ·  AI Systems
+```
+
 # Kalyan Venkatesh
 
-Data Scientist · AI/ML Engineer · MS Computer Science, DePaul University (June 2026, GPA 3.84)
-3+ years of production ML at sensen.ai before the research pivot.
+**Most LLM reliability work assumes the problem is the model.**
+I think the problem is the system around the model -- the evaluation loop, the pipeline architecture,
+the assumptions baked into how we measure failure.
 
-[LinkedIn](https://linkedin.com/in/kalyan-venk) · [adavivenkatesh@gmail.com](mailto:adavivenkatesh@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
+[![Email](https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adavivenkatesh@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Research-agentic--llmops-58a6ff?style=flat-square&logo=github)](https://kalyan-venk.github.io/agentic-llmops/)
+
+</div>
 
 ---
 
-## One thread connects everything I build
-
-Most LLM reliability work assumes the problem is the model.
-I think the problem is often the *system around the model* — the evaluation loop, the pipeline architecture, the assumptions baked into how we measure failure.
+| | |
+|---|---|
+| **MS Computer Science** | DePaul University · Jun 2026 · GPA 3.84 |
+| **Production ML** | 3+ years · sensen.ai · 26 global deployments |
+| **Research** | LLM inference reliability · 2 systems under faculty supervision |
+| **Availability** | OPT eligible Jun 2026 · Open to DS / MLE / AI Engineer roles |
 
 ---
 
 ## Research
 
-### [Multi-Agent Inference Reliability Framework](https://github.com/kalyan-venk/agentic-llmops)
-*Supervised by Prof. Vahid Alizadeh · DePaul University · Jan 2026 – Present*
+### [Multi-Agent Inference Reliability Framework](https://kalyan-venk.github.io/agentic-llmops/) &nbsp; `LangGraph` `Ollama` `HumanEval`
+*DePaul University · Supervised by Prof. Vahid Alizadeh · Jan 2026 – Present*
 
-> Can a lightweight 3-agent runtime (Planner → Critic → Fixer) fix LLM failures without touching the model weights? Yes. But not the way you'd expect.
+> Can a lightweight 3-agent runtime (Planner → Critic → Fixer) fix LLM failures without touching model weights?
+> Yes. But not the way you'd expect.
 
-Built with LangGraph across **6 phases · 4 model families · 36 experimental conditions**.
+Built across **6 phases · 4 model families · 36 experimental conditions**.
 
-**What I found:**
-
-| Finding | What it means |
+| Finding | Result |
 |---|---|
-| Critic 3B → 8B upgrade made **18 conditions net-negative** | Stronger critics are confidently wrong in new ways |
-| **Inverse Capability Hypothesis** validated across all 4 families | Interventions help low-capability models (+32 pp for Code Llama 7B). They hurt strong ones. Crossover: ~65% pass@1 |
-| **Selective Reversion Gate** reverts 73.4% of degraded outputs | +4.85 pp pass@1 (p=0.01), latency cut from 7.89s → 4.79s |
-| Threshold sweep across 6 values, τ=0.70 optimal | Trigger rate down 78% without sacrificing reliability |
+| Upgrading the Critic (3B → 8B) made **18 conditions net-negative** | Stronger critics are confidently wrong in new ways |
+| **Inverse Capability Hypothesis** -- interventions help weak models, hurt strong ones | Validated across all 4 families. Crossover at ~65% pass@1 |
+| **Selective Reversion Gate** reverts 73.4% of degraded fixer outputs | **+4.85 pp pass@1** (95% CI [+3.36, +6.34], p = 0.010) |
+| Threshold sweep across 6 values, τ = 0.70 optimal | Latency: 7.89s → 4.79s · Trigger rate down 78% |
 
-Full implementation, all experiment results, and the research report are in the repo.
+Statistically validated across 3 independent trials. Targeting ICSE 2027.
 
 ---
 
-### [Inference-Lens](https://github.com/kalyan-venk/Inference-Lens)
-*Supervised by Prof. Bamshad Mobasher · DePaul University · May 2026 – Present*
+### [Inference-Lens](https://github.com/kalyan-venk/Inference-Lens) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
+*DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 – Present*
 
-> LLM-as-judge is the default eval paradigm now. Almost nobody is asking how easily the judge can be deceived. I am.
+> LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
 
-Built a system to stress-test evaluator reliability under systematic judge deception.
+Built a system to stress-test evaluator reliability under systematic adversarial pressure.
 
-**What I built:**
+| What I Built | Scale |
+|---|---|
+| Benchmarked LR · XGBoost · DeBERTa-v3 against adversarial inputs | 419 LLM-Bar pairs across 4 perturbation categories |
+| Response archetype clustering to map structural vulnerability | 170K+ Anthropic HH-RLHF preference annotations |
+| 5-fold CV supervised pipeline + MLflow artifact versioning | AUC-ROC target > 0.82 |
+| Real-time Streamlit evaluation interface | Per-feature verdict breakdowns |
 
-- Benchmarked **Logistic Regression · XGBoost · DeBERTa-v3** across 419 LLM-Bar adversarial inputs
-- Clustered **170K+ Anthropic HH-RLHF** preference pairs (K-Means, DBSCAN, hierarchical) to find which response archetypes are structurally most exploitable
-- 5-fold cross-validated supervised pipeline targeting **AUC-ROC > 0.82**, tracked via MLflow
-- Deployed as a Streamlit interface for real-time LLM output evaluation
+The goal isn't just "can we fool the judge." It's finding *which classes of outputs are vulnerable* -- so you can build evaluators that aren't.
 
-The goal is not just "can we fool the judge." It's finding *which classes of outputs are vulnerable* — so you can build evaluators that aren't.
+---
+
+## Industry
+
+**Data Scientist · [sensen.ai](https://sensen.ai)** `2022 – 2024`
+- ANPR model evaluation pipelines across 26 global deployments -- adopted as the standard validation workflow
+- Led R&D on industrial pollution enforcement: drone-based effluent sampling, 20-25x increase in regulatory coverage
+- ETL automation cutting consolidation from 10+ hrs to 2 hrs/week across ~30K weekly sightings
+
+**Data Engineer · AECOM & Siri** `2021 – 2022`
+- Forecasting and data integration pipelines for asset lifecycle management across 25+ locations
 
 ---
 
 ## Stack
 
-```
-Languages     Python · SQL · PostgreSQL · Oracle SQL
-AI / ML       PyTorch · TensorFlow · Scikit-learn · LangChain · LangGraph · vLLM
-MLOps         MLflow · Docker · Kubernetes · Airflow · dbt · AWS (S3, EC2, SageMaker)
-Infra         GitHub Actions · CI/CD
-```
-
----
-
-## Before the research
-
-**sensen.ai** `2022 – 2024` · Data Scientist
-- ANPR accuracy analytics across 26 projects; automated benchmarking and drift detection across 5 KPIs
-- ETL pipelines via dbt that nearly doubled processing efficiency
-- Led R&D on industrial pollution anomaly detection using drone GPS, sensor telemetry, and server-based ingestion
-
-**AECOM & Siri** `2021 – 2022` · Data Engineer
-- Forecasting and data integration pipelines for asset lifecycle management across 25+ locations
+`Python` `SQL` `PyTorch` `HuggingFace Transformers` `LangChain` `LangGraph` `Scikit-learn` `XGBoost` `DeBERTa` `LoRA/PEFT`
+`MLflow` `FastAPI` `Streamlit` `Docker` `Kubernetes` `AWS (S3 · EC2 · SageMaker)` `GitHub Actions`
+`LLM-as-Judge` `FAISS` `Ollama` `Adversarial ML` `Prompt Engineering` `McNemar's test` `SHAP`
 
 ---
 
 ## Certifications
 
-- AWS Certified Cloud Practitioner `Dec 2025`
-- AWS Certified Machine Learning Engineer Associate `In progress · Jun 2026`
+- **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)** · Dec 2025
+- **AWS Certified ML Engineer Associate** · In progress · Jun 2026
 
 ---
 
-Available on OPT from June 2026. Open to **Data Scientist**, **ML Engineer**, and **AI Engineer** roles.
-[LinkedIn](https://linkedin.com/in/kalyan-venk) · [adavivenkatesh@gmail.com](mailto:adavivenkatesh@gmail.com)
+<div align="center">
+
+*Open to Data Scientist · ML Engineer · AI Engineer roles*
+*OPT eligible Jun 2026 · Chicago, IL · Open to remote*
+
+</div>
