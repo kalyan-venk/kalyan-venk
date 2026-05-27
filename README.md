@@ -48,7 +48,7 @@ Statistically validated across 3 independent trials. Targeting ICSE 2027.
 
 ---
 
-### [Inference-Lens](https://github.com/kalyan-venk/Inference-Lens) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
+### [Inference-Lens](https://kalyan-venk.github.io/Inference-Lens/) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
 *DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 – Present*
 
 > LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
