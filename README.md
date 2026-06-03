@@ -7,7 +7,7 @@ ML Engineer  ·  LLM Evaluation  ·  AI Systems
 # Kalyan Venkatesh
 
 **Most LLM reliability work assumes the problem is the model.**
-I think the problem is the system around the model -- the evaluation loop, the pipeline architecture,
+I think the problem is the system around the model - the evaluation loop, the pipeline architecture,
 the assumptions baked into how we measure failure.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
