@@ -12,7 +12,8 @@ the assumptions baked into how we measure failure.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
 [![Email](https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adavivenkatesh@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Research-agentic--llmops-58a6ff?style=flat-square&logo=github)](https://kalyan-venk.github.io/agentic-llmops/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kalyan--venk.github.io-8957e5?style=flat-square&logo=github)](https://kalyan-venk.github.io)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Inference--Lens-22d3ee?style=flat-square&logo=streamlit)](https://kalyan-venk-inference-lens.hf.space)
 
 </div>
 
@@ -29,13 +30,13 @@ the assumptions baked into how we measure failure.
 
 ## Research
 
-### [Multi-Agent Inference Reliability Framework](https://kalyan-venk.github.io/agentic-llmops/) &nbsp; `LangGraph` `Ollama` `HumanEval`
+### [Multi-Agent Inference Reliability Framework](https://kalyan-venk.github.io/agentic-llmops.html) &nbsp; `LangGraph` `Ollama` `HumanEval`
 *DePaul University · Supervised by Prof. Vahid Alizadeh · Jan 2026 – Present*
 
 > Can a lightweight 3-agent runtime (Planner → Critic → Fixer) fix LLM failures without touching model weights?
 > Yes. But not the way you'd expect.
 
-Built across **6 phases · 4 model families · 36 experimental conditions**.
+Built across **10 phases · 5 model families · hundreds of experimental conditions**.
 
 | Finding | Result |
 |---|---|
@@ -48,10 +49,12 @@ Statistically validated across 3 independent trials. Targeting ICSE 2027.
 
 ---
 
-### [Inference-Lens](https://github.com/kalyan-venk/Inference-Lens) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
+### [Inference-Lens](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
 *DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 – Present*
 
 > LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
+
+**[Try the live scorer](https://kalyan-venk-inference-lens.hf.space)** and watch an automated judge pick the worse response in real time.
 
 Built a system to stress-test evaluator reliability under systematic adversarial pressure.
 
