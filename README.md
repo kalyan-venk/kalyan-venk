@@ -96,6 +96,5 @@ The goal isn't just "can we fool the judge." It's finding *which classes of outp
 <div align="center">
 
 *Open to Data Scientist · ML Engineer · AI Engineer roles*
-*OPT eligible Jun 2026 · Chicago, IL · Open to remote*
 
 </div>
