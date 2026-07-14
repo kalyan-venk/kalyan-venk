@@ -50,7 +50,7 @@ Statistically validated across 3 independent trials. Currently under peer review
 ---
 
 ### [Inference-Lens](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `NLP` `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
-*DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 - Jun 2026*
+*DePaul University · Supervised by Prof. Bamshad Mobasher · Mar 2026 - Jun 2026*
 
 > LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
 
