@@ -105,7 +105,7 @@ Also building: **hawk-eye-geospatial**, a satellite change-detection project wit
 ## Certifications
 
 - **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)** · Dec 2025
-- **AWS Certified ML Engineer Associate** · In progress · Jun 2026
+- **AWS Certified ML Engineer Associate** · In progress · Jul 2026
 
 ---
 
