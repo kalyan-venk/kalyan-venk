@@ -7,7 +7,7 @@ ML Engineer  ·  NLP  ·  LLM Evaluation  ·  MLOps
 # Kalyan Venkatesh
 
 **Most LLM reliability work assumes the problem is the model.**
-I think the problem is the system around the model - the evaluation loop, the pipeline architecture,
+I think the problem is the system around the model: the evaluation loop, the pipeline architecture,
 the assumptions baked into how we measure failure.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
@@ -31,7 +31,7 @@ the assumptions baked into how we measure failure.
 ## Research
 
 ### [Multi-Agent Inference Reliability Framework](https://kalyan-venk.github.io/agentic-llmops.html) &nbsp; `LangGraph` `Ollama` `HumanEval`
-*DePaul University · Supervised by Prof. Vahid Alizadeh · Jan 2026 – Present*
+*DePaul University · Supervised by Prof. Vahid Alizadeh · Jan 2026 - Jun 2026*
 
 > Can a lightweight 3-agent runtime (Planner → Critic → Fixer) fix LLM failures without touching model weights?
 > Yes. But not the way you'd expect.
@@ -41,7 +41,7 @@ Built across **10 phases · 5 model families · hundreds of experimental conditi
 | Finding | Result |
 |---|---|
 | Upgrading the Critic (3B → 8B) made **18 conditions net-negative** | Stronger critics are confidently wrong in new ways |
-| **Inverse Capability Hypothesis** -- interventions help weak models, hurt strong ones | Validated across all 4 families. Crossover at ~65% pass@1 |
+| **Inverse Capability Hypothesis**: interventions help weak models, hurt strong ones | Validated across all 4 families. Crossover at ~65% pass@1 |
 | **Selective Reversion Gate** reverts 73.4% of degraded fixer outputs | **+4.85 pp pass@1** (95% CI [+3.36, +6.34], p = 0.010) |
 | Threshold sweep across 6 values, τ = 0.70 optimal | Latency: 7.89s → 4.79s · Trigger rate down 78% |
 
@@ -50,7 +50,7 @@ Statistically validated across 3 independent trials. Currently under peer review
 ---
 
 ### [Inference-Lens](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `NLP` `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
-*DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 – Present*
+*DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 - Jun 2026*
 
 > LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
 
@@ -60,12 +60,12 @@ Built an end-to-end NLP text classification pipeline to stress-test evaluator re
 
 | What I Built | Scale |
 |---|---|
-| NLP text classification — LR · XGBoost · DeBERTa-v3 benchmarked against adversarial NLP inputs | 419 LLM-Bar pairs across 4 NLP perturbation categories |
+| NLP text classification (LR, XGBoost, DeBERTa-v3) benchmarked against adversarial NLP inputs | 419 LLM-Bar pairs across 4 NLP perturbation categories |
 | Response archetype clustering to map structural vulnerability in natural language | 170K+ Anthropic HH-RLHF human preference annotations |
-| 5-fold CV supervised NLP pipeline + MLflow artifact versioning | ~0.50 AUC-ROC across all 3 models -- the finding, not a shortfall |
+| 5-fold CV supervised NLP pipeline + MLflow artifact versioning | ~0.50 AUC-ROC across all 3 models, the finding rather than a shortfall |
 | Real-time Streamlit NLP evaluation interface | Per-feature verdict breakdowns |
 
-The goal isn't just "can we fool the NLP judge." It's finding *which classes of natural language outputs are vulnerable* -- so you can build evaluators that aren't.
+The goal isn't just "can we fool the NLP judge." It's finding *which classes of natural language outputs are vulnerable*, so you can build evaluators that aren't.
 
 ---
 
@@ -76,29 +76,29 @@ The goal isn't just "can we fool the NLP judge." It's finding *which classes of 
 
 > Most ML portfolio projects stop at a trained model. This one is about everything after.
 
-A deliberately boring tabular model (customer churn, never the headline) with all the depth put into the ops loop around it: a cross-validated training comparison (Logistic Regression beat XGBoost, 0.846 vs 0.842 CV ROC-AUC -- the simpler model won, so that's what got served), a validated FastAPI serving layer (`/health` `/predict` `/info` `/reload`), and a multi-stage Docker build. **3 of 7 planned phases shipped.** Next: a GitHub Actions CI eval gate that fails a build if a model doesn't clear a quality threshold, then MLflow registry promotion and Evidently drift detection.
+A deliberately boring tabular model (customer churn, never the headline) with all the depth put into the ops loop around it. Logistic Regression beat XGBoost on cross-validated ROC-AUC, 0.846 vs 0.842, so the simpler model is what actually got served. A validated FastAPI serving layer (`/health` `/predict` `/info` `/reload`) and a multi-stage Docker build are done too. **3 of 7 planned phases shipped.** Next: a GitHub Actions CI eval gate that fails a build if a model doesn't clear a quality threshold, then MLflow registry promotion and Evidently drift detection.
 
-Also building: **hawk-eye-geospatial**, a satellite change-detection project with a calibrated-uncertainty reliability layer -- on hold while I focus on PredictOps, no results to report yet.
+Also building: **hawk-eye-geospatial**, a satellite change-detection project with a calibrated-uncertainty reliability layer. On hold while I focus on PredictOps, no results to report yet.
 
 ---
 
 ## Industry
 
-**Data Scientist · [sensen.ai](https://sensen.ai)** `2022 – 2024`
-- ANPR model evaluation pipelines across 26 global deployments -- adopted as the standard validation workflow
+**Data Scientist · [sensen.ai](https://sensen.ai)** `2022 - 2024`
+- ANPR model evaluation pipelines across 26 global deployments, later adopted as the standard validation workflow
 - Led R&D on industrial pollution enforcement: drone-based effluent sampling, 20-25x increase in regulatory coverage
 - ETL automation cutting consolidation from 10+ hrs to 2 hrs/week across ~30K weekly sightings
 
-**Data Engineer · AECOM & Siri** `2021 – 2022`
+**Data Engineer · AECOM & Siri** `2021 - 2022`
 - Forecasting and data integration pipelines for asset lifecycle management across 25+ locations
 
 ---
 
 ## Stack
 
-`Python` `NLP` `SQL` `PyTorch` `HuggingFace Transformers` `LangChain` `LangGraph` `Scikit-learn` `XGBoost` `DeBERTa` `LoRA/PEFT`
+`Python` `Java` `Spring Boot` `NLP` `SQL` `PostgreSQL` `PyTorch` `HuggingFace Transformers` `LangChain` `LangGraph` `Scikit-learn` `XGBoost` `DeBERTa` `LoRA/PEFT`
 `MLflow` `FastAPI` `Pydantic` `Evidently` `Streamlit` `Docker` `Kubernetes` `AWS (S3 · EC2 · SageMaker)` `GitHub Actions`
-`LLM-as-Judge` `FAISS` `Ollama` `Adversarial NLP` `text classification` `Prompt Engineering` `McNemar's test` `SHAP`
+`LLM-as-Judge` `FAISS` `Ollama` `Adversarial NLP` `text classification` `Prompt Engineering` `McNemar's test` `SHAP` `Data structures` `REST APIs`
 
 ---
 
