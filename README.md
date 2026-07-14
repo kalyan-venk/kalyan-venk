@@ -1,7 +1,7 @@
 <div align="center">
 
 ```
-ML Engineer  ·  LLM Evaluation  ·  AI Systems
+ML Engineer  ·  NLP  ·  LLM Evaluation  ·  MLOps
 ```
 
 # Kalyan Venkatesh
@@ -24,7 +24,7 @@ the assumptions baked into how we measure failure.
 | **MS Computer Science** | DePaul University · Jun 2026 · GPA 3.84 |
 | **Production ML** | 3+ years · sensen.ai · 26 global deployments |
 | **Research** | LLM inference reliability · 2 systems under faculty supervision |
-| **Availability** | OPT eligible Jun 2026 · Open to DS / MLE / AI Engineer roles |
+| **Availability** | OPT eligible Jun 2026 · Open to DS / MLE / AI Engineer / SWE roles |
 
 ---
 
@@ -45,31 +45,40 @@ Built across **10 phases · 5 model families · hundreds of experimental conditi
 | **Selective Reversion Gate** reverts 73.4% of degraded fixer outputs | **+4.85 pp pass@1** (95% CI [+3.36, +6.34], p = 0.010) |
 | Threshold sweep across 6 values, τ = 0.70 optimal | Latency: 7.89s → 4.79s · Trigger rate down 78% |
 
-Statistically validated across 3 independent trials. Targeting ICSE 2027.
+Statistically validated across 3 independent trials. Currently under peer review.
 
 ---
 
-<<<<<<< HEAD
-### [Inference-Lens](https://kalyan-venk.github.io/Inference-Lens/) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
-=======
-### [Inference-Lens](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
->>>>>>> dev/update-landing-page
+### [Inference-Lens](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `NLP` `DeBERTa-v3` `XGBoost` `MLflow` `LLM-Bar`
 *DePaul University · Supervised by Prof. Bamshad Mobasher · May 2026 – Present*
 
 > LLM-as-judge is the default eval paradigm. Almost nobody is asking how easily the judge can be deceived.
 
-**[Try the live scorer](https://kalyan-venk.github.io/play.html)** and watch an automated judge pick the worse response in real time.
+**[Try the live scorer](https://kalyan-venk.github.io/play.html)** and watch an automated NLP judge pick the worse response in real time.
 
-Built a system to stress-test evaluator reliability under systematic adversarial pressure.
+Built an end-to-end NLP text classification pipeline to stress-test evaluator reliability under systematic adversarial pressure. The core task: can a model learn what humans genuinely prefer in natural language responses?
 
 | What I Built | Scale |
 |---|---|
-| Benchmarked LR · XGBoost · DeBERTa-v3 against adversarial inputs | 419 LLM-Bar pairs across 4 perturbation categories |
-| Response archetype clustering to map structural vulnerability | 170K+ Anthropic HH-RLHF preference annotations |
-| 5-fold CV supervised pipeline + MLflow artifact versioning | AUC-ROC target > 0.82 |
-| Real-time Streamlit evaluation interface | Per-feature verdict breakdowns |
+| NLP text classification — LR · XGBoost · DeBERTa-v3 benchmarked against adversarial NLP inputs | 419 LLM-Bar pairs across 4 NLP perturbation categories |
+| Response archetype clustering to map structural vulnerability in natural language | 170K+ Anthropic HH-RLHF human preference annotations |
+| 5-fold CV supervised NLP pipeline + MLflow artifact versioning | ~0.50 AUC-ROC across all 3 models -- the finding, not a shortfall |
+| Real-time Streamlit NLP evaluation interface | Per-feature verdict breakdowns |
 
-The goal isn't just "can we fool the judge." It's finding *which classes of outputs are vulnerable* -- so you can build evaluators that aren't.
+The goal isn't just "can we fool the NLP judge." It's finding *which classes of natural language outputs are vulnerable* -- so you can build evaluators that aren't.
+
+---
+
+## Engineering
+
+### [PredictOps](https://kalyan-venk.github.io/predictops.html) &nbsp; `FastAPI` `Docker` `MLflow` `GitHub Actions` `Evidently`
+*Personal project · build in progress*
+
+> Most ML portfolio projects stop at a trained model. This one is about everything after.
+
+A deliberately boring tabular model (customer churn, never the headline) with all the depth put into the ops loop around it: a cross-validated training comparison (Logistic Regression beat XGBoost, 0.846 vs 0.842 CV ROC-AUC -- the simpler model won, so that's what got served), a validated FastAPI serving layer (`/health` `/predict` `/info` `/reload`), and a multi-stage Docker build. **3 of 7 planned phases shipped.** Next: a GitHub Actions CI eval gate that fails a build if a model doesn't clear a quality threshold, then MLflow registry promotion and Evidently drift detection.
+
+Also building: **hawk-eye-geospatial**, a satellite change-detection project with a calibrated-uncertainty reliability layer -- on hold while I focus on PredictOps, no results to report yet.
 
 ---
 
@@ -87,9 +96,9 @@ The goal isn't just "can we fool the judge." It's finding *which classes of outp
 
 ## Stack
 
-`Python` `SQL` `PyTorch` `HuggingFace Transformers` `LangChain` `LangGraph` `Scikit-learn` `XGBoost` `DeBERTa` `LoRA/PEFT`
-`MLflow` `FastAPI` `Streamlit` `Docker` `Kubernetes` `AWS (S3 · EC2 · SageMaker)` `GitHub Actions`
-`LLM-as-Judge` `FAISS` `Ollama` `Adversarial ML` `Prompt Engineering` `McNemar's test` `SHAP`
+`Python` `NLP` `SQL` `PyTorch` `HuggingFace Transformers` `LangChain` `LangGraph` `Scikit-learn` `XGBoost` `DeBERTa` `LoRA/PEFT`
+`MLflow` `FastAPI` `Pydantic` `Evidently` `Streamlit` `Docker` `Kubernetes` `AWS (S3 · EC2 · SageMaker)` `GitHub Actions`
+`LLM-as-Judge` `FAISS` `Ollama` `Adversarial NLP` `text classification` `Prompt Engineering` `McNemar's test` `SHAP`
 
 ---
 
@@ -102,6 +111,6 @@ The goal isn't just "can we fool the judge." It's finding *which classes of outp
 
 <div align="center">
 
-*Open to Data Scientist · ML Engineer · AI Engineer roles*
+*Open to Data Scientist · ML Engineer · AI Engineer · Software Engineer roles*
 
 </div>
