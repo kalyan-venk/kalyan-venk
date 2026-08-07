@@ -22,21 +22,20 @@ through production deployment.
 
 ## Experience
 
-### [Graduate Research Engineer · DePaul University](https://kalyan-venk.github.io/agentic-llmops.html) &nbsp; `LangGraph` `Ollama` `MLflow`
-*Sep 2025 – Jun 2026*
+### [Graduate Research Engineer · DePaul University](https://kalyanvenk.com/agentic-llmops) &nbsp; `LangGraph` `Ollama` `MLflow`
+*Sep 2025 - Jun 2026*
 
 - Designed a compound AI system in LangGraph and Ollama: a Planner writes, a Critic evaluates, a
-  Fixer recovers from the errors. Ran it across 10 phases and 5 model families for a
-  **+4.85 pp pass@1** gain, statistically significant (95% CI [+3.36, +6.34], p = 0.010).
-- Got the same result in 3 independent trials and named it the **Inverse Capability Hypothesis**.
-  Weak models gained (Code Llama +30.3 pp), strong models regressed (Qwen −4.0 pp), and neither CI
-  crossed zero. The threshold sits at ~65% pass@1. Above that, monitoring turns net-negative. It
-  held on HumanEval-100, HumanEval+ and MBPP.
-- Built a **Selective Reversion Gate** that reverts 73.4% of fixer outputs and keeps only the
-  high-confidence corrections. The harness around it is reproducible: docker-compose, deterministic
-  seeding, multi-trial runs, automated metric aggregation, all tracked in MLflow.
+  Fixer recovers from the errors. Ran it across 10 phases and 5 model families, evaluated on
+  HumanEval-100, HumanEval+ and MBPP.
+- Named the **Inverse Capability Hypothesis**: the critic-fixer monitoring loop helps weak base
+  models (Code Llama) and hurts strong ones (Qwen). The benefit shrinks as baseline capability
+  rises, and past a threshold it turns net-negative. Held across 3 independent trials.
+- Built a **Selective Reversion Gate** that keeps only high-confidence fixer corrections and
+  reverts the rest. The harness around it is reproducible: docker-compose, deterministic seeding,
+  multi-trial runs, automated metric aggregation, all tracked in MLflow.
 
-### Data Scientist · [sensen.ai](https://sensen.ai) &nbsp; `2022 – 2024`
+### Data Scientist · [sensen.ai](https://sensen.ai) &nbsp; `2022 - 2024`
 
 - Shipped 8 SenFORCE ticket generation APIs, court-admissible image storage pipelines and
   time-based compression, running across AWS and Azure.
@@ -47,9 +46,9 @@ through production deployment.
 - Replaced manual invoicing with end-to-end ETL pipelines over ~30k weekly ANPR sightings.
   Consolidation dropped from 10+ hrs a week to 2.
 - Led R&D on industrial pollution enforcement with drone-based effluent sampling, designed to cover
-  25–30 discharge points daily against weekly manual checks. That is 20–25x the coverage.
+  25-30 discharge points daily against weekly manual checks. That is 20-25x the coverage.
 
-### Data Engineer · AECOM & Siri &nbsp; `2021 – 2022`
+### Data Engineer · AECOM & Siri &nbsp; `2021 - 2022`
 
 - Automated data preprocessing, cleaning and monthly cost consolidation pipelines in Python and
   Pandas. Dashboard preparation dropped ~60%, from 3 hrs to under 1.
@@ -60,8 +59,8 @@ through production deployment.
 
 ## Projects
 
-### [Inference-Lens: Adversarial Reliability of NLP Evaluators](https://kalyan-venk.github.io/inference-lens.html) &nbsp; `DeBERTa-v3` `XGBoost` `LLM-Bar` `MLflow`
-*Mar 2026 – Jun 2026*
+### [Inference-Lens: Adversarial Reliability of NLP Evaluators](https://kalyanvenk.com/inference-lens) &nbsp; `DeBERTa-v3` `XGBoost` `LLM-Bar` `MLflow`
+*Mar 2026 - Jun 2026*
 
 **[Try the live scorer](https://kalyan-venk.github.io/play.html)**. Watch an automated judge pick
 the worse response in real time.
@@ -76,26 +75,29 @@ the worse response in real time.
   adversarial vulnerability. The same pipeline extends to toxic-comment identification and
   multi-label classification.
 
-### [PredictOps: End-to-End ML Serving Pipeline with Automated Eval Gating](https://github.com/kalyan-venk/PredictOps) &nbsp; `FastAPI` `Docker` `GitHub Actions` `MLflow` `Evidently`
-*Jul 2026 – Present*
+### [PredictOps: End-to-End ML Serving Pipeline with Automated Eval Gating](https://kalyanvenk.com/predictops) &nbsp; `FastAPI` `ONNX Runtime` `Docker` `GitHub Actions` `MLflow` `Evidently`
+*Jul 2026 - Present*
 
-- Benchmarked LogisticRegression against XGBoost on 7,043-row Telco churn data with stratified
-  5-fold CV. The tighter cross-validated model won (0.846 vs 0.842 ROC-AUC) and held on a 20%
-  held-out split (0.842 ROC-AUC, 80.6% accuracy).
-- Served that model behind a FastAPI layer: 4 endpoints, 19 fields validated by Pydantic and
-  constrained by enum. A multi-stage Docker image took the deployed size from ~1.2GB to ~340MB,
-  a 72% reduction.
-- Built a CI eval gate in GitHub Actions that acts as a standing quality contract. Nothing below
-  ROC-AUC ≥ 0.80 reaches the MLflow registry. I verified it by shipping a deliberately degraded
-  model, watching CI fail, then fixing it until it passed.
-- Automated data-drift detection with Evidently on a reference-vs-current split. It logs a
-  per-feature PSI score and trips a threshold alert past PSI > 0.15, which injected shift confirmed.
+- Built a fraud-scoring API for card transactions (Sparkov data) where every feature is something
+  a live authorization request can actually compute. XGBoost scored 0.6472 AUPRC on an out-of-time
+  test split.
+- Serves through FastAPI on ONNX Runtime only, no scikit-learn or XGBoost in the serving image. A
+  CI gate in GitHub Actions blocks any model that falls below the AUPRC floor from reaching the
+  MLflow registry, and an Evidently job monitors feature drift against the training distribution.
+
+### [StreamLake: Streaming Lakehouse with Enforced Data Contracts](https://kalyanvenk.com/streamlake) &nbsp; `Kafka` `Spark` `Iceberg` `dbt` `Airflow`
+*Jul 2026 - Present*
+
+- Built a card-transaction fraud lakehouse: Sparkov data ingested twice, batch and a live Kafka
+  stream, into Iceberg, modeled with dbt, orchestrated by Airflow.
+- Every hop asserts a data contract in YAML and quarantines the rows that break it, instead of
+  failing silently or letting a broken row reach the warehouse.
 
 ---
 
 ## Skills
 
-**Languages** `Python` `SQL` `Java`
+**Languages** `Python` `SQL`
 
 **AI/ML** `LangGraph` `LangChain` `Agentic AI` `Multi-Agent Systems` `Tool Use` `Prompt Engineering` `LLM Evaluation` `HuggingFace Transformers` `Fine-tuning` `Embeddings` `Scikit-learn` `XGBoost`
 
@@ -111,13 +113,13 @@ the worse response in real time.
 
 | | |
 |---|---|
-| **MS Computer Science** | DePaul University · Chicago, IL · Sep 2024 – Jun 2026 |
-| **BTech Engineering** | National Institute of Technology · Nagpur, India · Jul 2017 – May 2021 |
+| **MS Computer Science** | DePaul University · Chicago, IL · Sep 2024 - Jun 2026 |
+| **BTech Engineering** | National Institute of Technology · Nagpur, India · Jul 2017 - May 2021 |
 
 ## Certifications
 
 - **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)**
-- **AWS Certified Machine Learning Engineer – Associate** · In progress
+- **AWS Certified Machine Learning Engineer - Associate** · In progress
 
 ---
 
