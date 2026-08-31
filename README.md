@@ -68,15 +68,6 @@ for hallucination, and a fixer that rewrites the code if the hallucination is ab
 Across 5 model families and different phases of experimentation, monitoring benefit looks
 inversely proportional to how capable the planner's own model is.
 
-### [Inference-Lens: Adversarial Reliability of NLP Judges](https://kalyanvenk.com/inference-lens)
-
-There are 3 ways to check the quality of AI work: force a fixed output format, which limits the
-AI's capability; assign humans to review it, which doesn't scale; or have another AI grade the
-work. It's easy to assume those judges are reliable. People are starting to think they can't be
-trusted, but I tried to quantify it here: archetype classification with K-Means and DBSCAN,
-encoders and tabular models trained to pick the better of 2 responses, then tested on a
-purpose-built adversarial set. Full writeup on the site.
-
 ---
 
 ## Skills
