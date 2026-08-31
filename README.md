@@ -68,40 +68,6 @@ for hallucination, and a fixer that rewrites the code if the hallucination is ab
 Across 5 model families and different phases of experimentation, monitoring benefit looks
 inversely proportional to how capable the planner's own model is.
 
-### [GroundTruth: Variance-Reduced A/B Testing with CUPED](https://kalyanvenk.com/groundtruth)
-
-A/B tests with real-life data. I tried to differentiate a true effect from luck. Took a 14M-row
-experiment log and used CUPED to cut the noise and measure the lift. Tighter confidence intervals
-flipped a borderline result under a naive analysis into a clear signal. There's a simulator on the
-site too, so you can watch how sample size and noise change the way the intervals close in.
-
-### [Inference-Lens: Adversarial Reliability of NLP Judges](https://kalyanvenk.com/inference-lens)
-
-There are 3 ways to check the quality of AI work: force a fixed output format, which limits the
-AI's capability; assign humans to review it, which doesn't scale; or have another AI grade the
-work. It's easy to assume those judges are reliable. People are starting to think they can't be
-trusted, but I tried to quantify it here: archetype classification with K-Means and DBSCAN,
-encoders and tabular models trained to pick the better of 2 responses, then tested on a
-purpose-built adversarial set. Full writeup on the site.
-
-### [PredictOps: CI-Gated MLOps Reliability Pipeline](https://kalyanvenk.com/predictops)
-
-Models looking great in a notebook isn't enough, so I explored the MLOps side with this one: model
-training, serving in a multi-stage Docker build, CI gates that block an inferior model, and live
-data-drift monitoring with Evidently. The fraud-scoring model (Sparkov card-transaction data)
-scored 0.6472 AUPRC on an out-of-time test split.
-
-### [Secret-Agent: A Frameworkless LLM Agent Simulation](https://kalyanvenk.com/secret-agent)
-
-I was always curious what's under the hood in tools like Claude Code and Codex. So I built a
-simulation from scratch, no frameworks. The core agent loop is about 53 lines of code.
-
-### [StreamLake: Streaming Lakehouse with Data Contracts](https://kalyanvenk.com/streamlake)
-
-Broken pipelines are one thing, but bad incoming data is more dangerous, it poisons everything
-downstream. I explored a streaming lakehouse here with Kafka, Iceberg and a data-contract engine.
-If a record breaks the contract, it gets caught and quarantined instead of reaching the warehouse.
-
 ---
 
 ## Skills
