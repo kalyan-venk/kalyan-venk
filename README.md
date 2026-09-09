@@ -1,27 +1,22 @@
 <div align="center">
 
 ```
-Research Engineer  ·  Multi-Agent Systems  ·  LLMs  ·  Computer Vision  ·  MSCS '26
+AI Engineer  ·  LLM Applications  ·  Computer Vision  ·  MSCS '26
 ```
 
 # Kalyan Venkatesh
 
-I just finished my Masters in Computer Science from DePaul University, Chicago in June 2026.
-Over the past few years I've been focusing on one problem more or less: how to keep AI systems
-reliable once they hit production.
+I recently completed an MS in Computer Science at DePaul University.
 
-At sensen.ai, the domain was Computer Vision. I built a vehicle direction classifier for one of
-our parking clients by fine-tuning a CNN via transfer learning, and added the model validation
-framework that checks whether a model is performing accurately or not. That went on to become the
-company standard for ANPR evaluation.
+At sensen.ai, I began as a Software Engineer Intern and converted to a
+full-time Software Engineer. I was the company's sole Data Scientist, working
+on computer vision, model evaluation, analytical SQL, and production data
+pipelines for parking-enforcement clients.
 
-My graduate research explored reliability in LLMs: is a multi-agent system more reliable than a
-standalone agent at inference time? Knowing when to use monitoring and when not to is critical. I
-built a 3-agent system, Planner, Critic and Fixer, in LangGraph. One thing that surprised me is
-that great models often suffered because of monitoring. Have a glance at the work below or at
-kalyanvenk.com.
-
-Currently looking to join a team where I can solve some meaningful problems with my skills.
+I am building ChargeBack, a tool-calling assistant for card-fraud dispute
+workflows. Its current code includes a FastAPI streaming chat service,
+PostgreSQL-backed conversation memory, database traces for every tool call, and
+a seven-case evaluation runner.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
 [![Email](https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adavivenkatesh@gmail.com)
@@ -33,56 +28,45 @@ Currently looking to join a team where I can solve some meaningful problems with
 
 ## Experience
 
-### Graduate Research Engineer · DePaul University
-*Sep 2025 - Jun 2026*
+### sensen.ai
 
-- Built a multi-agent system in LangGraph, pairing an LLM-as-a-judge critic with a self-correcting
-  fixer for runtime hallucination detection in LLM code generation.
-- Found monitoring benefit falls as model capability rises.
+#### Software Engineer
+*Jan 2023 - Aug 2024*
 
-### Data Scientist · sensen.ai
-*Aug 2022 - Aug 2024*
+- Built an ANPR vehicle-direction classifier, a production model-evaluation
+  framework, and a human-in-the-loop OCR correction pipeline.
+- Served as sensen's sole Data Scientist and forward-deployed technical contact
+  across four countries; gathered requirements, scoped feasibility, and
+  self-deployed 300+ data products on AWS, Azure, and GCP servers.
+- Owned analytical SQL for 80 client deployments, turning about 30K weekly ANPR
+  sightings into paired sessions, officer rankings, and multi-level rollups.
 
-- Built an ANPR vehicle-direction classifier, a model-evaluation framework and a human-in-the-loop
-  OCR flywheel.
-- Built Brisbane's Officer Productivity scoring model and ticket-generation APIs, forward-deployed
-  across sensen's entire global footprint.
+#### Software Engineer Intern
+*Aug 2022 - Jan 2023*
 
-### Data Engineer · Aecom & Siri
-*May 2021 - Jul 2022*
+- Built eight ticket-generation APIs on PL/pgSQL functions behind Spring Boot
+  and designed an image-retention policy in Python that reclaimed 400+ GB and
+  deferred server upgrades four to five months.
 
-- Built Python and Pandas ETL pipelines for data cleaning, monthly cost consolidation, and
-  automated Excel, PDF and HTML reporting.
-- Wrote analytical SQL across 2 infrastructure projects.
+## Project
 
----
+### [ChargeBack](https://github.com/kalyan-venk/chargeback-bro)
 
-## Projects
-
-### [Graduate Research: Multi-Agent Inference Reliability Framework](https://kalyanvenk.com/agentic-llmops)
-
-Wanted to explore if a multi-agent system is more reliable than a standalone agent at inference
-time. I picked code generation because the evaluation is straightforward, unlike natural language.
-So I built a 3-agent system in LangGraph: a planner that writes the code, a critic that scores it
-for hallucination, and a fixer that rewrites the code if the hallucination is above a threshold.
-Across 5 model families and different phases of experimentation, monitoring benefit looks
-inversely proportional to how capable the planner's own model is.
-
----
+- Built a FastAPI chat service with streamed responses, multi-turn PostgreSQL
+  memory, and tools for transaction lookup, fraud scoring, and dispute filing.
+- Designed a nine-table PostgreSQL data model and a Python ETL for cardholders,
+  cards, merchants, transactions, fraud checks, disputes, messages,
+  conversations, and traces.
+- Added structured traces for all tool calls and a seven-case evaluation runner
+  that checks expected dispute records and tool traces.
 
 ## Skills
 
-**Languages** `Python` `SQL`
+**Languages** `Python` `SQL` `TypeScript`
 
-**AI/ML** `LangGraph` `LangChain` `Agentic AI` `Multi-Agent Systems` `Tool Use` `Prompt Engineering` `LLM Evaluation` `HuggingFace Transformers` `Fine-tuning` `Embeddings` `Scikit-learn` `XGBoost`
+**Machine Learning** `PyTorch` `scikit-learn` `Computer Vision` `CNNs` `Transfer Learning`
 
-**MLOps & Serving** `MLflow` `Weights & Biases` `FastAPI` `Model Serving` `Ollama` `Docker` `GitHub Actions (CI/CD)` `Pydantic` `Evidently` `Data Drift Monitoring`
-
-**Reliability & Evaluation** `Imbalanced Classification` `Adversarial Evaluation` `Experimental Design`
-
-**Cloud & Data** `AWS` `PostgreSQL` `NumPy` `Pandas` `Git`
-
----
+**Data and Backend** `PostgreSQL` `PL/pgSQL` `ETL` `FastAPI` `REST APIs` `Docker` `AWS` `Git` `Testing`
 
 ## Education
 
@@ -94,13 +78,9 @@ inversely proportional to how capable the planner's own model is.
 ## Certifications
 
 - **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)** · Dec 2025 - Dec 2028
-- **AWS Certified Machine Learning Engineer - Associate** · In progress
-
----
 
 <div align="center">
 
-*Open to AI Engineer · ML Engineer · Data Scientist · Data Engineer · Data Analyst · Research
-Engineer · Forward Deployed Engineer roles · adavivenkatesh@gmail.com*
+*Open to AI Engineer, ML Engineer, Data Scientist, and Forward Deployed Engineer roles · adavivenkatesh@gmail.com*
 
 </div>
