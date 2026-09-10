@@ -1,22 +1,27 @@
 <div align="center">
 
 ```
-AI Engineer  ·  LLM Applications  ·  Computer Vision  ·  MSCS '26
+Research Engineer  ·  LLMs  ·  AI Agents  ·  Evaluation & Reliability
 ```
 
 # Kalyan Venkatesh
 
 I recently completed an MS in Computer Science at DePaul University.
 
-At sensen.ai, I began as a Software Engineer Intern and converted to a
-full-time Software Engineer. I was the company's sole Data Scientist, working
-on computer vision, model evaluation, analytical SQL, and production data
-pipelines for parking-enforcement clients.
+I build reliable AI systems across production engineering and graduate
+research.
 
-I am building ChargeBack, a tool-calling assistant for card-fraud dispute
-workflows. Its current code includes a FastAPI streaming chat service,
-PostgreSQL-backed conversation memory, database traces for every tool call, and
-a seven-case evaluation runner.
+At sensen.ai I worked as a Software Engineer and served as the company's sole
+Data Scientist. I built a production model-evaluation framework across 26 ANPR
+deployments and worked with on-site teams and clients across 4 countries to
+turn operational failures into measurable engineering problems.
+
+My Master's Research carried that reliability question into LLM systems. I
+built and evaluated a LangGraph Planner-Critic-Fixer pipeline across 5 local
+model families, 10 experimental phases and 3 code benchmarks.
+
+I am now building ChargeBack, an AI agent for card-fraud disputes built around
+evaluation, observability and guardrails.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
 [![Email](https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adavivenkatesh@gmail.com)
@@ -33,38 +38,54 @@ a seven-case evaluation runner.
 #### Software Engineer
 *Jan 2023 - Aug 2024*
 
-- Built an ANPR vehicle-direction classifier, a production model-evaluation
-  framework, and a human-in-the-loop OCR correction pipeline.
+- Owned an ANPR vehicle entry and exit classifier by designing the labeling
+  scheme and fine-tuning a CNN on about 1,500 production images to about 90%
+  accuracy.
+- Engineered the production ML evaluation framework and business-error metric
+  adopted across 26 parking deployments to surface about 5% unbillable sessions
+  worth about $6K per month per site.
 - Served as sensen's sole Data Scientist and forward-deployed technical contact
-  across four countries; gathered requirements, scoped feasibility, and
-  self-deployed 300+ data products on AWS, Azure, and GCP servers.
-- Owned analytical SQL for 80 client deployments, turning about 30K weekly ANPR
-  sightings into paired sessions, officer rankings, and multi-level rollups.
+  across 4 countries while gathering requirements, mentoring 2 interns and
+  self-deploying 300+ data products on AWS, Azure and GCP servers.
+- Owned analytical SQL for 80 client deployments and turned about 30K weekly
+  ANPR sightings into paired sessions, officer rankings and multi-level rollups.
 
 #### Software Engineer Intern
 *Aug 2022 - Jan 2023*
 
-- Built eight ticket-generation APIs on PL/pgSQL functions behind Spring Boot
+- Built 8 ticket-generation APIs on PL/pgSQL functions behind Spring Boot
   and designed an image-retention policy in Python that reclaimed 400+ GB and
-  deferred server upgrades four to five months.
+  deferred server upgrades 4 to 5 months.
 
-## Project
+## Projects
 
-### [ChargeBack](https://github.com/kalyan-venk/chargeback-bro)
+### [ChargeBack](https://kalyanvenk.com/chargeback/) · [Source](https://github.com/kalyan-venk/chargeback-bro)
 
 - Built a FastAPI chat service with streamed responses, multi-turn PostgreSQL
-  memory, and tools for transaction lookup, fraud scoring, and dispute filing.
-- Designed a nine-table PostgreSQL data model and a Python ETL for cardholders,
-  cards, merchants, transactions, fraud checks, disputes, messages,
-  conversations, and traces.
-- Added structured traces for all tool calls and a seven-case evaluation runner
-  that checks expected dispute records and tool traces.
+  memory and 3 tools for transaction lookup, fraud scoring and dispute filing.
+- Modeled the workflow in 9 PostgreSQL tables and wrote a 2-pass Python ETL to
+  load 555K+ transactions with linked cardholders, cards and merchants.
+- Added policy guardrails, structured tool traces and a 7-case end-to-end
+  evaluation suite that verifies dispute records and escalation paths.
+
+### [Graduate Research: Multi-Agent LLM Systems & Reliability](https://kalyanvenk.com/inference-reliability)
+
+- Built a LangGraph Planner-Critic-Fixer pipeline with AST checks, selective
+  reversion and MLflow tracking across 5 local 3B-8B model families, 10
+  experimental phases and 3 code benchmarks.
+- Measured a +1.37-point average pass@1 gain across 9 conditions on a 3B planner
+  but found monitoring reduced Qwen2.5 Coder 7B from 90% to 86%.
+
+The first-author paper is under conference review. The code and detailed
+observations remain anonymized to preserve double-blind review.
 
 ## Skills
 
 **Languages** `Python` `SQL` `TypeScript`
 
-**Machine Learning** `PyTorch` `scikit-learn` `Computer Vision` `CNNs` `Transfer Learning`
+**AI and Machine Learning** `LLMs` `LLM Agents` `LLM Evaluation`
+`Multi-Agent Systems` `LangGraph` `MLflow` `PyTorch` `scikit-learn`
+`Computer Vision` `CNNs` `Transfer Learning`
 
 **Data and Backend** `PostgreSQL` `PL/pgSQL` `ETL` `FastAPI` `REST APIs` `Docker` `AWS` `Git` `Testing`
 
@@ -81,6 +102,6 @@ a seven-case evaluation runner.
 
 <div align="center">
 
-*Open to AI Engineer, ML Engineer, Data Scientist, and Forward Deployed Engineer roles · adavivenkatesh@gmail.com*
+*Open to Research Engineer and Software Engineer roles in LLMs, AI Agents and reliable production systems · adavivenkatesh@gmail.com*
 
 </div>
