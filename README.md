@@ -1,31 +1,17 @@
 <div align="center">
 
-```
-Research Engineer  ·  LLMs  ·  AI Agents  ·  Evaluation & Reliability
-```
+AI Engineer · Evaluation · Agents · Production Systems
 
 # Kalyan Venkatesh
 
-I recently completed an MS in Computer Science at DePaul University.
-
-I build reliable AI systems across production engineering and graduate
-research.
-
+I build AI systems that can be measured, traced and controlled in production.
 At sensen.ai I worked as a Software Engineer and served as the company's sole
-Data Scientist. I built a production model-evaluation framework across 26 ANPR
-deployments and worked with on-site teams and clients across 4 countries to
-turn operational failures into measurable engineering problems.
-
-My Master's Research carried that reliability question into LLM systems. I
-built and evaluated a LangGraph Planner-Critic-Fixer pipeline across 5 local
-model families, 10 experimental phases and 3 code benchmarks.
-
-I am now building ChargeBack, an AI agent for card-fraud disputes built around
-evaluation, observability and guardrails.
+Data Scientist. I now apply the same evaluation-first approach to LLM research
+and ChargeBack, an AI agent for card-fraud disputes.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
-[![Email](https://img.shields.io/badge/Email-adavivenkatesh@gmail.com-EA4335?style=flat-square&logo=gmail)](mailto:adavivenkatesh@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kalyanvenk.com-8957e5?style=flat-square&logo=github)](https://kalyanvenk.com)
+[![Email](https://img.shields.io/badge/Email-adavivenkatesh%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:adavivenkatesh@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kalyanvenk.com-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://kalyanvenk.com/)
 
 </div>
 
