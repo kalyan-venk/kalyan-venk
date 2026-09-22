@@ -5,8 +5,8 @@ AI Engineer · Evaluation · Agents · Production Systems
 # Kalyan Venkatesh
 
 I build AI systems that can be measured, traced and controlled in production.
-At sensen.ai I worked as a Software Engineer and served as the company's sole
-Data Scientist. I now apply the same evaluation-first approach to LLM research
+I have two years of paid engineering experience at sensen.ai, where I served as
+the company's sole Data Scientist. I now apply the same evaluation-first approach to LLM research
 and ChargeBack, an AI agent for card-fraud disputes.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
