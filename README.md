@@ -4,6 +4,8 @@ Software Engineer · LLMs · Agents · Evaluation · Observability
 
 # Kalyan Venkatesh
 
+</div>
+
 Hey! I'm a Software Engineer with 2 years of work experience. I specialize in making AI systems reliable in production.
 
 At sensen.ai I worked as a Software Engineer and served as the company's sole Data Scientist. I built a production model-evaluation framework across 26 parking deployments and worked with on-site teams and clients across 4 countries to turn operational failures into measurable engineering problems.
@@ -12,11 +14,11 @@ My Master's Research carried the same question into LLM systems. I built a multi
 
 Lately I'm building an end-to-end system with AI agents for credit card fraud disputes, focusing on LLM evaluation, observability & guardrails.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kalyan--venk-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kalyan-venk)
-[![Email](https://img.shields.io/badge/Email-adavivenkatesh%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:adavivenkatesh@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-kalyanvenk.com-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://kalyanvenk.com/)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:adavivenkatesh@gmail.com" title="Email"><img src="assets/email.svg" alt="Email" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://kalyanvenk.com/" title="Portfolio"><img src="assets/portfolio.svg" alt="Portfolio" width="24" height="24"></a>
+</p>
 
 ---
 
