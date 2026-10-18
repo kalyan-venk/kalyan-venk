@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kalyan Venkatesh
+### Kalyan Venkatesh
 
 Software Engineer
 
@@ -20,7 +20,7 @@ My Master's Research carried the same question into LLM systems. I built a multi
 
 Lately I'm building an end-to-end system with AI agents for credit card fraud disputes, focusing on LLM evaluation, observability & guardrails.
 
----
+<br>
 
 ## SKILLS
 
@@ -31,6 +31,8 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 | **Data** | PostgreSQL, Data Modeling, Data Pipelines, ETL, Pandas, NumPy, Data Quality / Validation |
 | **Engineering** | System Design, Software Testing, AI-Assisted Development |
 | **Backend & Delivery** | MLOps, FastAPI, Docker, AWS, Linux, Git |
+
+<br>
 
 ## WORK EXPERIENCE
 
@@ -45,6 +47,8 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 **sensen.ai | Software Engineer Intern** · Aug 2022 - Jan 2023
 
 - Built 8 ticket-generation APIs backed by PL/pgSQL functions & designed an age-based image-retention policy, compressing old captures in Python at 10-30% level above the legal legibility floor, reclaiming 400+ GB & deferring server upgrades 4-5 months.
+
+<br>
 
 ## PROJECTS
 
@@ -63,6 +67,8 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 - Architected a LangGraph Planner-Critic-Fixer pipeline with AST checks, selective reversion & MLflow tracking across 5 local 3B-8B model families, 10 experimental phases & 3 code benchmarks.
 - Measured a +1.37-point average pass@1 gain across 9 conditions on a 3B planner but found naive monitoring reduced Qwen2.5 Coder 7B from 90% to 86% (p=0.020), showing it can harm stronger models.
 
+<br>
+
 ## EDUCATION
 
 <table>
@@ -75,6 +81,8 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
     <td>Visvesvaraya National Institute of Technology, Nagpur · Jul 2017 - May 2021 · GPA 7.85</td>
   </tr>
 </table>
+
+<br>
 
 ## CERTIFICATIONS
 
