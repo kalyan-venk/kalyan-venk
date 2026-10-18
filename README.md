@@ -5,7 +5,7 @@
   <img src="assets/name-light.svg" alt="Kalyan Venkatesh" width="360" height="48">
 </picture>
 
-Software Engineer
+### Software Engineer
 
 <p align="center">
   <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
