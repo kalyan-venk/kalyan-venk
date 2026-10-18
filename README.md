@@ -20,7 +20,17 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 
 ---
 
-## Experience
+## Skills
+
+| Category | Skills |
+|---|---|
+| **Languages & Frameworks** | Python, SQL, TypeScript, React |
+| **AI & ML** | PyTorch, AI Agents, Prompt Engineering, LLM Evaluation, Benchmarking, Observability |
+| **Data** | PostgreSQL, Data Modeling, Data Pipelines, ETL, Pandas, NumPy, Data Quality / Validation |
+| **Engineering** | System Design, Software Testing, AI-Assisted Development |
+| **Backend & Delivery** | MLOps, FastAPI, Docker, AWS, Linux, Git |
+
+## Work experience
 
 ### sensen.ai
 
@@ -29,44 +39,35 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 #### Software Engineer
 *Jan 2023 to Aug 2024*
 
-Sole Data Scientist and forward-deployed technical contact across sensen's client base. Built an ANPR vehicle-direction classifier, a production model-evaluation framework and analytical SQL serving 80 client deployments. Gathered requirements, scoped feasibility and self-deployed 300+ data products on AWS, Azure and GCP servers.
-
-`Python` `Computer Vision` `ETL` `AWS`
+- Owned ANPR vehicle entry & exit classifier for parking deployments, designed the labeling scheme, curated, annotated & augmented ~1,500 balanced production images & fine-tuned a CNN through transfer learning to achieve ~90% accuracy at initial deployment.
+- Engineered a production ML evaluation framework & business-error metric that sensen adopted as standard across 26 parking deployments, running 24x7 against live ANPR data to surface ~5% unbillable parking sessions worth ~$6K per month per site.
+- Designed a human-in-the-loop OCR correction pipeline that turned 400+ officer corrections per client each year into retraining data, lifting plate-read accuracy from ~90% to ~93% in the first production cycle.
+- Served as sensen's sole Data Scientist, gathering requirements from clients & on-site stakeholders, scoping feasibility & building & deploying 300+ data products across 4+ countries on AWS, Azure & GCP servers.
+- Owned analytical SQL for 80+ client deployments, turning ~30K weekly ANPR sightings into paired sessions, officer rankings & multi-level rollups through ~25 materialized views, window functions & parameterized PL/pgSQL functions from one shared codebase.
 
 #### Software Engineer Intern
 *Aug 2022 to Jan 2023*
 
-Built 8 ticket-generation APIs on PL/pgSQL functions behind Spring Boot and designed an image-retention policy in Python that reclaimed 400+ GB and deferred server upgrades 4 to 5 months.
-
-`Python` `SQL` `Linux`
+- Built 8 ticket-generation APIs backed by PL/pgSQL functions & designed an age-based image-retention policy, compressing old captures in Python at 10-30% level above the legal legibility floor, reclaiming 400+ GB & deferring server upgrades 4-5 months.
 
 ## Projects
 
-### [ChargeBack](https://kalyanvenk.com/chargeback/) · [Source](https://github.com/kalyan-venk/chargeback-bro)
+### [ChargeBack: AI agent for credit card fraud disputes built around evaluation, observability & guardrails](https://kalyanvenk.com/chargeback/)
 
-*In progress*
+*In progress* · [Source](https://github.com/kalyan-venk/chargeback-bro)
 
-AI agent for card-fraud disputes built around evaluation, observability and guardrails. The system connects streamed conversations to transaction lookup, fraud scoring and guarded dispute filing.
+- Built an LLM-powered dispute assistant using Python, FastAPI & PostgreSQL with streamed conversations for transaction lookup, risk scoring & filing, reducing median response latency by 20% through tool-result reuse.
+- Developed reusable React & TypeScript components with typed props, shared state & controlled forms, rejecting invalid inputs & preserving dispute data across API failures with loading/error feedback.
+- Prevented duplicate disputes in 100 repeated & concurrent filing attempts using PostgreSQL unique constraints & idempotency, enforcing customer isolation with server-side authorization & SQL ownership checks.
+- Built pytest regression tests with deterministic LLM fixtures, JSON Schema validation & database assertions, catching invalid tool calls, runaway loops, timeouts & false success claims through tool traces.
+- Cut tokens per completed dispute by 15% by filtering persisted conversation history into concise model context, retaining transaction details & tool results needed to resolve multi-turn follow-ups correctly.
 
-`FastAPI` `PostgreSQL` `PyTorch` `Evaluation`
-
-### [Multi-Agent LLM Systems & Reliability](https://kalyanvenk.com/inference-reliability)
+### [Graduate Research: Runtime Hallucination Monitoring in Multi-Agent LLM Systems](https://kalyanvenk.com/inference-reliability)
 
 *Under review*
 
-Graduate research on whether a Planner-Critic-Fixer monitor improves generated-code correctness across local language models without retraining them.
-
-`LangGraph` `LLM Evaluation` `MLflow` `AST Analysis`
-
-## Skills
-
-**Languages** `Python` `SQL` `TypeScript`
-
-**AI and Machine Learning** `LLMs` `LLM Agents` `LLM Evaluation`
-`Multi-Agent Systems` `LangGraph` `MLflow` `PyTorch` `scikit-learn`
-`Computer Vision` `CNNs` `Transfer Learning`
-
-**Data and Backend** `PostgreSQL` `PL/pgSQL` `ETL` `FastAPI` `REST APIs` `Docker` `AWS` `Git` `Testing`
+- Architected a LangGraph Planner-Critic-Fixer pipeline with AST checks, selective reversion & MLflow tracking across 5 local 3B-8B model families, 10 experimental phases & 3 code benchmarks.
+- Measured a +1.37-point average pass@1 gain across 9 conditions on a 3B planner but found naive monitoring reduced Qwen2.5 Coder 7B from 90% to 86% (p=0.020), showing it can harm stronger models.
 
 ## Education
 
@@ -77,10 +78,4 @@ Graduate research on whether a Planner-Critic-Fixer monitor improves generated-c
 
 ## Certifications
 
-- **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)** · Dec 2025 - Dec 2028
-
-<div align="center">
-
-*Open to Software Engineer roles in LLMs, AI Agents and reliable production systems · adavivenkatesh@gmail.com*
-
-</div>
+- **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)**
