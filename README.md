@@ -1,8 +1,14 @@
 <div align="center">
 
-Software Engineer · LLMs · Agents · Evaluation · Observability
-
 # Kalyan Venkatesh
+
+Software Engineer
+
+<p align="center">
+  <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:adavivenkatesh@gmail.com" title="Email"><img src="assets/email.svg" alt="Email" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://kalyanvenk.com/" title="Portfolio"><img src="assets/portfolio.svg" alt="Portfolio" width="24" height="24"></a>
+</p>
 
 </div>
 
@@ -14,15 +20,9 @@ My Master's Research carried the same question into LLM systems. I built a multi
 
 Lately I'm building an end-to-end system with AI agents for credit card fraud disputes, focusing on LLM evaluation, observability & guardrails.
 
-<p align="center">
-  <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
-  <a href="mailto:adavivenkatesh@gmail.com" title="Email"><img src="assets/email.svg" alt="Email" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://kalyanvenk.com/" title="Portfolio"><img src="assets/portfolio.svg" alt="Portfolio" width="24" height="24"></a>
-</p>
-
 ---
 
-## Skills
+## SKILLS
 
 | Category | Skills |
 |---|---|
@@ -32,7 +32,7 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 | **Engineering** | System Design, Software Testing, AI-Assisted Development |
 | **Backend & Delivery** | MLOps, FastAPI, Docker, AWS, Linux, Git |
 
-## Work experience
+## WORK EXPERIENCE
 
 **sensen.ai | Software Engineer** · Jan 2023 - Aug 2024
 
@@ -46,7 +46,7 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 
 - Built 8 ticket-generation APIs backed by PL/pgSQL functions & designed an age-based image-retention policy, compressing old captures in Python at 10-30% level above the legal legibility floor, reclaiming 400+ GB & deferring server upgrades 4-5 months.
 
-## Projects
+## PROJECTS
 
 ### [ChargeBack: AI agent for credit card fraud disputes built around evaluation, observability & guardrails](https://kalyanvenk.com/chargeback/)
 
@@ -63,7 +63,7 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 - Architected a LangGraph Planner-Critic-Fixer pipeline with AST checks, selective reversion & MLflow tracking across 5 local 3B-8B model families, 10 experimental phases & 3 code benchmarks.
 - Measured a +1.37-point average pass@1 gain across 9 conditions on a 3B planner but found naive monitoring reduced Qwen2.5 Coder 7B from 90% to 86% (p=0.020), showing it can harm stronger models.
 
-## Education
+## EDUCATION
 
 <table>
   <tr>
@@ -76,6 +76,6 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
   </tr>
 </table>
 
-## Certifications
+## CERTIFICATIONS
 
 - **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/3cb43cfd-9b9c-42e1-a13b-26fa16bf0cbe/public_url)**
