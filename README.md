@@ -1,16 +1,14 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg">
-  <img src="assets/name-light.svg" alt="Kalyan Venkatesh" width="360" height="48">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg?v=2">
+  <img src="assets/name-light.svg?v=2" alt="Kalyan Venkatesh - Software Engineer" width="360" height="78">
 </picture>
 
-### Software Engineer
-
 <p align="center">
-  <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
-  <a href="mailto:adavivenkatesh@gmail.com" title="Email"><img src="assets/email.svg" alt="Email" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
-  <a href="https://kalyanvenk.com/" title="Portfolio"><img src="assets/portfolio.svg" alt="Portfolio" width="24" height="24"></a>
+  <a href="https://linkedin.com/in/kalyan-venk" title="LinkedIn"><img src="assets/linkedin.svg?v=2" alt="LinkedIn" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="mailto:adavivenkatesh@gmail.com" title="Email"><img src="assets/email.svg?v=2" alt="Email" width="24" height="24"></a>&nbsp;&nbsp;&nbsp;
+  <a href="https://kalyanvenk.com/" title="Portfolio"><img src="assets/portfolio.svg?v=2" alt="Portfolio" width="24" height="24"></a>
 </p>
 
 </div>
