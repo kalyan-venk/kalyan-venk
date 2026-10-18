@@ -32,12 +32,7 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 
 ## Work experience
 
-### sensen.ai
-
-*Aug 2022 to Aug 2024 · 2 years 1 month*
-
-#### Software Engineer
-*Jan 2023 to Aug 2024*
+**sensen.ai | Software Engineer** · Jan 2023 - Aug 2024
 
 - Owned ANPR vehicle entry & exit classifier for parking deployments, designed the labeling scheme, curated, annotated & augmented ~1,500 balanced production images & fine-tuned a CNN through transfer learning to achieve ~90% accuracy at initial deployment.
 - Engineered a production ML evaluation framework & business-error metric that sensen adopted as standard across 26 parking deployments, running 24x7 against live ANPR data to surface ~5% unbillable parking sessions worth ~$6K per month per site.
@@ -45,16 +40,13 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 - Served as sensen's sole Data Scientist, gathering requirements from clients & on-site stakeholders, scoping feasibility & building & deploying 300+ data products across 4+ countries on AWS, Azure & GCP servers.
 - Owned analytical SQL for 80+ client deployments, turning ~30K weekly ANPR sightings into paired sessions, officer rankings & multi-level rollups through ~25 materialized views, window functions & parameterized PL/pgSQL functions from one shared codebase.
 
-#### Software Engineer Intern
-*Aug 2022 to Jan 2023*
+**sensen.ai | Software Engineer Intern** · Aug 2022 - Jan 2023
 
 - Built 8 ticket-generation APIs backed by PL/pgSQL functions & designed an age-based image-retention policy, compressing old captures in Python at 10-30% level above the legal legibility floor, reclaiming 400+ GB & deferring server upgrades 4-5 months.
 
 ## Projects
 
 ### [ChargeBack: AI agent for credit card fraud disputes built around evaluation, observability & guardrails](https://kalyanvenk.com/chargeback/)
-
-*In progress* · [Source](https://github.com/kalyan-venk/chargeback-bro)
 
 - Built an LLM-powered dispute assistant using Python, FastAPI & PostgreSQL with streamed conversations for transaction lookup, risk scoring & filing, reducing median response latency by 20% through tool-result reuse.
 - Developed reusable React & TypeScript components with typed props, shared state & controlled forms, rejecting invalid inputs & preserving dispute data across API failures with loading/error feedback.
@@ -71,10 +63,16 @@ Lately I'm building an end-to-end system with AI agents for credit card fraud di
 
 ## Education
 
-| | |
-|---|---|
-| **MS Computer Science** | DePaul University · Chicago, IL · Sep 2024 - Jun 2026 · GPA 3.88 |
-| **BTech Engineering** | Visvesvaraya National Institute of Technology, Nagpur · Jul 2017 - May 2021 · GPA 7.85 |
+<table>
+  <tr>
+    <td><strong>MS Computer Science</strong></td>
+    <td>DePaul University · Chicago, IL · Sep 2024 - Jun 2026 · GPA 3.88</td>
+  </tr>
+  <tr>
+    <td><strong>BTech Engineering</strong></td>
+    <td>Visvesvaraya National Institute of Technology, Nagpur · Jul 2017 - May 2021 · GPA 7.85</td>
+  </tr>
+</table>
 
 ## Certifications
 
