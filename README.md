@@ -1,6 +1,9 @@
 <div align="center">
 
-### Kalyan Venkatesh
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.svg">
+  <img src="assets/name-light.svg" alt="Kalyan Venkatesh" width="360" height="48">
+</picture>
 
 Software Engineer
 
